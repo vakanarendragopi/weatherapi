@@ -48,6 +48,7 @@ public class WeatherController {
 		return "Greetings";
 	}
 	@GetMapping("/getdata")
+// 	@RequestMapping(value = "/getdata", method = RequestMethod.GET, produces = "application/json")
 	public String data() {
 		String output = null;
 		  try {
